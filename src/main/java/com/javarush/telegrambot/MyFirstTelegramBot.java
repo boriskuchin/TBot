@@ -20,6 +20,8 @@ public class MyFirstTelegramBot extends MultiSessionTelegramBot {
     public void onUpdateEventReceived(Update updateEvent) {
         // TODO: основной функционал бота будем писать здесь
         sendTextMessageAsync("Привет, ползователь");
+        sendTextMessageAsync("И еще раз");
+
     }
 
     public static void main(String[] args) throws TelegramApiException {
